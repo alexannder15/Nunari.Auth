@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>ed437455-93b9-4f2b-9940-0d2ea52e08ca</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Aspire.Npgsql.EntityFrameworkCore.PostgreSQL" />
+    <PackageReference Include="Aspire.RabbitMQ.Client.v7" />
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" />
+    <PackageReference Include="Scalar.AspNetCore" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\orchestrator\Nunari.Auth.ServiceDefaults\Nunari.Auth.ServiceDefaults.csproj" />
+    <ProjectReference Include="..\Nunari.Auth.Application\Nunari.Auth.Application.csproj" />
+    <ProjectReference Include="..\Nunari.Auth.Infrastructure\Nunari.Auth.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

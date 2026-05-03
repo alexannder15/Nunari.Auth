@@ -1,0 +1,15 @@
+<Solution>
+  <Folder Name="/orchestrator/">
+    <Project Path="orchestrator/Nunari.Auth.AppHost/Nunari.Auth.AppHost.csproj" />
+    <Project Path="orchestrator/Nunari.Auth.ServiceDefaults/Nunari.Auth.ServiceDefaults.csproj" />
+  </Folder>
+  <Folder Name="/Solution Items/">
+    <File Path="Directory.Packages.props" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="src/Nunari.Auth.Api/Nunari.Auth.Api.csproj" />
+    <Project Path="src/Nunari.Auth.Application/Nunari.Auth.Application.csproj" Id="1bde2747-92a7-43e6-af1e-237e7ab119d1" />
+    <Project Path="src/Nunari.Auth.Domain/Nunari.Auth.Domain.csproj" Id="b2b196d2-79b7-4421-8421-d7416396e6b2" />
+    <Project Path="src/Nunari.Auth.Infrastructure/Nunari.Auth.Infrastructure.csproj" Id="cb0e437c-1b99-42f1-a6f9-e0e4cd9337be" />
+  </Folder>
+</Solution>
